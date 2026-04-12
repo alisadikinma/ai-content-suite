@@ -24,6 +24,15 @@
         "source": "url",
         "url": "https://github.com/alisadikinma/ai-video-promo-engine.git"
       }
+    },
+    {
+      "name": "article-content-writer",
+      "description": "3 skills + 1 agent + 11 reference docs for AI-powered long-form article writing with inline image prompts (GeminiGen.AI), copywriting frameworks, viral hooks, 10-point quality gate, and 5-point virality scoring",
+      "version": "1.0.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/article-content-writer.git"
+      }
     }
   ]
 }
