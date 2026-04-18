@@ -28,7 +28,7 @@
     {
       "name": "article-content-writer",
       "description": "7 skills + 1 agent + 11 reference docs for AI-powered long-form article writing with split pipeline (Sonnet/Opus), 20 hard rules, 5 scoring gates (100-point combined), inline image prompts, 14 copywriting frameworks, and AI humanization",
-      "version": "2.3.0",
+      "version": "2.4.0",
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/article-content-writer.git"
