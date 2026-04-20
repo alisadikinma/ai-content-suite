@@ -27,8 +27,8 @@
     },
     {
       "name": "article-content-writer",
-      "description": "11 skills + 1 agent for AI-powered long-form article writing with Phase B tiered split pipeline (article-research Sonnet/Opus + article-strategy-outline Sonnet + article-write + article-score), 20 hard rules, 5 scoring gates (100-point combined), inline image prompts, 14 copywriting frameworks, AI humanization, per-type captions, auto creator-face injection",
-      "version": "2.6.0",
+      "description": "11 skills + 1 agent for AI-powered long-form article writing with Phase B tiered split pipeline (article-research Sonnet/Opus + article-strategy-outline Sonnet + article-write + article-score), 20 hard rules, 5 scoring gates (100-point combined), inline image prompts, 14 copywriting frameworks, AI humanization, per-type captions, auto creator-face injection, named-entity cover with Wikidata/Commons + lede + role-resolution",
+      "version": "2.7.1",
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/article-content-writer.git"
