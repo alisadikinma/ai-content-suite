@@ -33,6 +33,15 @@
         "source": "url",
         "url": "https://github.com/alisadikinma/article-content-writer.git"
       }
+    },
+    {
+      "name": "linkedin-post-writer",
+      "description": "5 skills + 1 agent + 6 RAG reference docs for 2026-algorithm-optimized LinkedIn posts — text (1100-1300 chars) or 7-10 slide carousel. Depth Score validator (>=80 gate), 20-rule anti-slop rubric, 12 text hook formulas, 5 cover hook frameworks, per-slide image prompts with mobile dead-zone discipline. Pure content generation — emits draft JSON for an admin panel to consume.",
+      "version": "0.2.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/linkedin-post-writer.git"
+      }
     }
   ]
 }
