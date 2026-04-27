@@ -36,8 +36,8 @@
     },
     {
       "name": "linkedin-post-writer",
-      "description": "5 skills + 1 agent + 7 RAG reference docs for 2026-algorithm-optimized LinkedIn posts — text (1100-1300 chars) or 7-10 slide carousel. Single-shot orchestrator (claude -p emits one OrchestratorOutput JSON per run), Depth Score validator (>=80 gate), 20-rule anti-slop rubric, 12 text hook formulas, 5 cover hook frameworks, per-slide image prompts with mobile dead-zone discipline. v0.4.2: canvas spec fixed to 1:1 (1080×1080) — Imagen / Nano Banana Pro silently rejects non-standard ratios (4:5 falls back to 16:9). v0.4.1: creator-face mandate in cover prompts, hook expression library, 16 visual action types, visual-to-text ratio rule, CTA visual types, prompt-leak prevention. Pure content generation — emits draft JSON for an admin panel to consume.",
-      "version": "0.4.2",
+      "description": "5 skills + 1 agent + 7 RAG reference docs for 2026-algorithm-optimized LinkedIn posts — text (1100-1300 chars) or 7-10 slide carousel. Single-shot orchestrator (claude -p emits one OrchestratorOutput JSON per run), Depth Score validator (>=80 gate), 20-rule anti-slop rubric, 12 text hook formulas, 5 cover hook frameworks, per-slide image prompts with mobile dead-zone discipline. v0.4.5: canvas switched to 3:4 portrait (1080×1440) — Imagen-native, gives bilingual headline + visual hook ~360 more vertical pixels of real estate AND reposts cleanly to Instagram Feed (center-cropped to 4:5, no letterbox) and TikTok photo carousel (centered with minor letterbox). Authoring discipline added: headline + brand chrome must stay inside central 1080×1350 IG-safe zone. v0.4.4: 5-act narrative spine HOOK → FORESHADOW → BODY → PEAK → CTA + nyentrik mandate on both HOOK and CTA. v0.4.3: top-level caption + hashtags + link_comment with 4 schema invariants. Pure content generation — emits draft JSON for an admin panel to consume.",
+      "version": "0.4.5",
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/linkedin-post-writer.git"
