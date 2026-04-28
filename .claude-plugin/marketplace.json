@@ -36,8 +36,8 @@
     },
     {
       "name": "linkedin-post-writer",
-      "description": "5 skills + 1 agent + 7 RAG reference docs for 2026-algorithm-optimized LinkedIn posts — text (1100-1300 chars) or 7-10 slide carousel. Single-shot orchestrator (claude -p emits one OrchestratorOutput JSON per run), Depth Score validator (>=80 gate), 20-rule anti-slop rubric, 12 text hook formulas, 5 cover hook frameworks, per-slide image prompts with mobile dead-zone discipline. v0.4.6: split per-slide copy into copy_id (Indonesian main headline) + copy_en (English subtitle, also canonical for Depth Score). Per-layout length invariants (cover 40-180, body 80-260, human_fingerprint 120-320, direct_answer 60-240, cta 100-320) — fixes the v0.4.5 cover-bloat where uniform 10-420 cap allowed 30-word multi-sentence covers. Anti-slop scan now bilingual. v0.4.5: 3:4 portrait canvas for IG+LinkedIn+TikTok cross-platform reuse. v0.4.4: 5-act narrative spine HOOK→FORESHADOW→BODY→PEAK→CTA + nyentrik mandate. v0.4.3: top-level caption + hashtags + link_comment. Pure content generation — emits draft JSON for an admin panel to consume.",
-      "version": "0.4.6",
+      "description": "4 skills + 1 agent for 2026-algorithm-optimized LinkedIn TEXT posts (1100-1300 chars). Single-shot orchestrator emits one OrchestratorOutput JSON per run with Depth Score validator (>=80 gate), 20-rule anti-slop rubric, 12 text hook formulas, link-in-comment discipline. Carousel format short-circuits to status=route_to_carousel_gen — backend dispatches the universal /carousel-gen engine (in ai-image-carousel-prompt-gen plugin) for slide + image-prompt authoring. v0.5.0 BREAKING: /linkedin-carousel skill DELETED (carousel design specs moved to /carousel-gen plugin). Pure content generation — emits draft JSON for an admin panel to consume.",
+      "version": "0.5.0",
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/linkedin-post-writer.git"
