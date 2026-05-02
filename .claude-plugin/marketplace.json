@@ -42,6 +42,15 @@
         "source": "url",
         "url": "https://github.com/alisadikinma/linkedin-post-writer.git"
       }
+    },
+    {
+      "name": "pitch-deck-designer",
+      "description": "4 skills + 1 agent + 11 reference docs + cached NotebookLM research synthesis for visual-first investor / B2B pitch deck production. 4-stage pipeline: pitch-deck-brief (discovery) → pitch-deck-storyline (narrative arc design — HUMAN APPROVAL GATE) → pitch-deck-gen (visual production: per-slide image prompts via GeminiGen.AI / Nano Banana Pro, Seedance 2.0 video prompts, optional Remotion configs, speaker notes) → pitch-deck-validate (100-point quality gate: Visual Ratio + Narrative Arc + Ask Clarity + Investor Psychology + Anti-AI-Slop). Dual-mode adaptive: VC fundraise (Sequoia / Y Combinator / Kawasaki frameworks, AI-era 11-slide with 2026 moat-weight emphasis) vs B2B channel-partner (Indonesian mall / EO / food-court operator, ROI calculator, named-comparable case study, dated pilot offer). Hard rules: visual ratio >=70% per slide, headline <=10 words, source-tag every number, never close on Thank You, never AI-generate team faces, bottom-up TAM only. Indonesian-mode default (IDR primary, Bahasa headlines, named local comparables, BI/OJK/Kominfo compliance signals).",
+      "version": "0.1.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/pitch-deck-designer.git"
+      }
     }
   ]
 }
