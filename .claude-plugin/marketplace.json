@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "ai-image-carousel-prompt-gen",
-      "description": "3 skills + 1 agent + 13 reference docs for cinematic carousel image prompt production (Instagram, TikTok, LinkedIn, Threads)",
-      "version": "2.16.0",
+      "description": "3 skills + 1 agent + 13 reference docs for cinematic carousel image prompt production (Instagram, TikTok, LinkedIn, Threads). v2.21 adds Hard Rule #19: every slide depicting the creator MUST use the literal `creator` token in image_prompt body — backend pipelines regex-detect this to attach face_refs.",
+      "version": "2.21.0",
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/ai-image-carousel-prompt-gen.git"
