@@ -44,6 +44,15 @@
       }
     },
     {
+      "name": "social-short-form-writer",
+      "description": "2 skills for Instagram + TikTok caption authoring. /instagram-gen (4:5 photo carousel, 5-hashtag HARDCAP since Dec 2025, ≤125-char hook, NO link in caption — IG canonical) and /tiktok-gen (9:16 photo-mode, 5-8 hashtags, ≤100-char hook, first-100-char search-index gate, link-in-caption OK). English authoring (mirrors linkedin-post-writer v0.6.0 directive), Zod-validated discriminated-union output envelope, anti-AI-slop rubric. Pure content generation — emits one JSON envelope to stdout per run for backend ingestion. Pairs with linkedin-post-writer (long-form text + carousel routing) and ai-image-carousel-prompt-gen (universal slide image engine). Facebook Page caption authoring is intentionally OUT of scope — consuming backend reuses LinkedIn content (text format) or /instagram-gen output (carousel format).",
+      "version": "0.1.0",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/alisadikinma/social-short-form-writer.git"
+      }
+    },
+    {
       "name": "pitch-deck-designer",
       "description": "4 skills + 1 agent + 11 reference docs + cached NotebookLM research synthesis for visual-first investor / B2B pitch deck production. 4-stage pipeline: pitch-deck-brief (discovery) → pitch-deck-storyline (narrative arc design — HUMAN APPROVAL GATE) → pitch-deck-gen (visual production: per-slide image prompts via GeminiGen.AI / Nano Banana Pro, Seedance 2.0 video prompts, optional Remotion configs, speaker notes) → pitch-deck-validate (100-point quality gate: Visual Ratio + Narrative Arc + Ask Clarity + Investor Psychology + Anti-AI-Slop). Dual-mode adaptive: VC fundraise (Sequoia / Y Combinator / Kawasaki frameworks, AI-era 11-slide with 2026 moat-weight emphasis) vs B2B channel-partner (Indonesian mall / EO / food-court operator, ROI calculator, named-comparable case study, dated pilot offer). Hard rules: visual ratio >=70% per slide, headline <=10 words, source-tag every number, never close on Thank You, never AI-generate team faces, bottom-up TAM only. Indonesian-mode default (IDR primary, Bahasa headlines, named local comparables, BI/OJK/Kominfo compliance signals).",
       "version": "0.1.0",
