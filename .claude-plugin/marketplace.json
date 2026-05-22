@@ -53,12 +53,12 @@
       }
     },
     {
-      "name": "pitch-deck-designer",
-      "description": "4 skills + 1 agent + 11 reference docs + cached NotebookLM research synthesis for visual-first investor / B2B pitch deck production. 4-stage pipeline: pitch-deck-brief (discovery) → pitch-deck-storyline (narrative arc design — HUMAN APPROVAL GATE) → pitch-deck-gen (visual production: per-slide image prompts via GeminiGen.AI / Nano Banana Pro, Seedance 2.0 video prompts, optional Remotion configs, speaker notes) → pitch-deck-validate (100-point quality gate: Visual Ratio + Narrative Arc + Ask Clarity + Investor Psychology + Anti-AI-Slop). Dual-mode adaptive: VC fundraise (Sequoia / Y Combinator / Kawasaki frameworks, AI-era 11-slide with 2026 moat-weight emphasis) vs B2B channel-partner (Indonesian mall / EO / food-court operator, ROI calculator, named-comparable case study, dated pilot offer). Hard rules: visual ratio >=70% per slide, headline <=10 words, source-tag every number, never close on Thank You, never AI-generate team faces, bottom-up TAM only. Indonesian-mode default (IDR primary, Bahasa headlines, named local comparables, BI/OJK/Kominfo compliance signals).",
-      "version": "0.1.0",
+      "name": "ai-business-document-designer",
+      "description": "Visual-first AI designer for business documents across 9 output types: VC pitch decks, B2B partnership decks, product brochures, personal portfolios, agency portfolios, product catalogs, service flyers, trifold leaflets, and hybrid decks. 5 skills + 1 agent + 25+ reference docs. 5-stage pipeline with 2 human approval gates: brief (discovery + output_type detection) → narrative/layout (story arc for decks OR modular page layout for print) → copywriting (per-page copy + pricing tier articulation) → gen (image prompts via GeminiGen.AI / Nano Banana Pro, Seedance 2.0 video, optional Remotion, HTML+CSS print stylesheet) → validate (dual rubric: deck mode 100pt or print mode 100pt). 8 framework files (deck-vc, deck-b2b, brochure-product, portfolio-personal, portfolio-agency, catalog-product, service-flyer, trifold-leaflet) + 7 named themes (indusia-tech, minimalist-editorial, industrial-brutalist, premium-luxe, pastel-soft, brutalist-mono, indo-tropical). Print-ready (CMYK + 3-5mm bleed + 300dpi + font embed). Indonesian-first (IDR, Bahasa, BI/OJK/ISPO/PPN 11%, named local comparables). Migrated from pitch-deck-designer 2026-05-21 with merged scope from print-collateral-designer.",
+      "version": "0.3.0",
       "source": {
         "source": "url",
-        "url": "https://github.com/alisadikinma/pitch-deck-designer.git"
+        "url": "https://github.com/alisadikinma/ai-business-document-designer.git"
       }
     }
   ]

@@ -14,7 +14,7 @@ claude plugins install ai-image-carousel-prompt-gen
 claude plugins install article-content-writer
 claude plugins install linkedin-post-writer
 claude plugins install social-short-form-writer
-claude plugins install pitch-deck-designer
+claude plugins install ai-business-document-designer
 ```
 
 Or via **Manage Plugins UI** → **Marketplaces** tab → paste `alisadikinma/ai-content-suite` → **Add**, then install from **Plugins** tab.
@@ -28,7 +28,7 @@ Or via **Manage Plugins UI** → **Marketplaces** tab → paste `alisadikinma/ai
 | [article-content-writer](https://github.com/alisadikinma/article-content-writer) | AI-powered long-form article writing with copywriting frameworks, viral hooks, image prompts, and dual scoring gates |
 | [linkedin-post-writer](https://github.com/alisadikinma/linkedin-post-writer) | Blog → native LinkedIn post (text or 7-10 slide carousel) with Depth Score validator, 12 hook formulas, and 20-rule anti-slop rubric |
 | [social-short-form-writer](https://github.com/alisadikinma/social-short-form-writer) | Blog → native Instagram + TikTok captions. `/instagram-gen` (4:5 carousel, 5-hashtag hardcap since Dec 2025, no link in caption) + `/tiktok-gen` (9:16 photo-mode, 5-8 hashtags, first-100-char search-index gate). English authoring, anti-AI-slop. Pairs with linkedin-post-writer + ai-image-carousel-prompt-gen. |
-| [pitch-deck-designer](https://github.com/alisadikinma/pitch-deck-designer) | Visual-first investor / B2B pitch deck designer — 4-stage pipeline (brief → storyline → gen → validate). Dual-mode adaptive (VC fundraise / B2B channel-partner adoption). Outputs per-slide image prompts (GeminiGen.AI), Seedance 2.0 video prompts, optional Remotion configs, Indonesian-aware speaker notes. 100-point quality gate (Visual Ratio + Narrative Arc + Ask Clarity + Investor Psychology + Anti-AI-Slop). |
+| [ai-business-document-designer](https://github.com/alisadikinma/ai-business-document-designer) | Visual-first AI designer for 9 business document types: VC + B2B pitch decks, brochures, portfolios (personal + agency), product catalogs, service flyers, trifold leaflets. 5-stage pipeline (brief → narrative/layout → copywriting → gen → validate) with 2 human approval gates. 8 framework files + 7 named themes + dual-rubric scoring (deck or print). Print-ready (CMYK + bleed + 300dpi). Indonesian-first. Migrated from pitch-deck-designer 2026-05-21 with merged print-collateral scope. |
 
 ## License
 
