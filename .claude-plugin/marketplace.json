@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "ai-image-carousel-prompt-gen",
-      "description": "Cinematic AI image prompt generator for social media carousel content. v2.22.0 adds FINAL OUTPUT CONTRACT section at EOF of carousel-gen SKILL.md — production fix for Sonnet emitting Markdown reasoning summary instead of JSON envelope in pipeline mode (last-instruction-wins bias enforcement).",
-      "version": "2.22.0",
+      "description": "Cinematic AI image prompt generator for social media carousel content. v2.23.0 makes BODY + PEAK slides educational explainer cards (teaching headline + 2-3 context sub-points + takeaway, face-free infographic) so the audience actually learns, while HOOK/FORESHADOW/CTA keep the cinematic creator face.",
+      "version": "2.23.0",
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/ai-image-carousel-prompt-gen.git"
