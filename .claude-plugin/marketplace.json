@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "ai-image-carousel-prompt-gen",
-      "description": "Cinematic AI image prompt generator for social media carousel content. v3.0.0 Spotlight Portrait rebrand: the cover/hook is a calm, credible creator portrait + 3+ floating topic UI elements (real tool cards/logos/screenshots) on a solid signature blue #0F59B6 base, with one signature smart-casual outfit on every slide (topic shown by the floating elements, never by costume). BODY/PEAK slides stay face-free educational explainer cards (teaching headline + 2-3 context sub-points + takeaway); HOOK/human-fingerprint/CTA keep the creator face. CTA is a Save+Comment+Share action variant. Replaces the v2.20-2.25 absurdist MAX-chaos hook + per-topic costume switching.",
-      "version": "3.0.0",
+      "description": "Cinematic AI image prompt generator for social media carousel content. v3.0.1 Spotlight Portrait refinement: every slide sits on a BLUE BRAND GRADIENT base (navy #0A3D82 edges -> brighter #1E6FD0 center, never flat solid). The cover/hook + CTA are a calm, credible creator portrait (bald head + glasses) caught MID-ACTION (coffee mug / game controller / gesture, never a stiff stand) + 3+ floating topic UI elements (real tool cards/logos/screenshots); top-bar shows the visible @alisadikinma handle (no 'Bilingual' text); the brand icon is always bald + glasses, never haired. BODY/PEAK slides stay face-free hand-drawn doodle explainer cards on the same blue gradient. CTA is a Save+Comment+Share action variant. Refines the v3.0.0 Spotlight Portrait rebrand.",
+      "version": "3.0.1",
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/ai-image-carousel-prompt-gen.git"
