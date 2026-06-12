@@ -9,8 +9,8 @@
   "plugins": [
     {
       "name": "ai-image-carousel-prompt-gen",
-      "description": "Cinematic AI image prompt generator for social media carousel content. v2.24.0 bundles style-presets.md into the compiled pipeline refs so --style=sketchnote (cream-paper DOODLE infographic) works in headless/VPS mode; BODY/PEAK slides are educational explainer cards (teaching headline + 2-3 context sub-points + takeaway, face-free infographic) so the audience learns, while HOOK/FORESHADOW/CTA keep the cinematic creator face.",
-      "version": "2.24.0",
+      "description": "Cinematic AI image prompt generator for social media carousel content. v3.0.0 Spotlight Portrait rebrand: the cover/hook is a calm, credible creator portrait + 3+ floating topic UI elements (real tool cards/logos/screenshots) on a solid signature blue #0F59B6 base, with one signature smart-casual outfit on every slide (topic shown by the floating elements, never by costume). BODY/PEAK slides stay face-free educational explainer cards (teaching headline + 2-3 context sub-points + takeaway); HOOK/human-fingerprint/CTA keep the creator face. CTA is a Save+Comment+Share action variant. Replaces the v2.20-2.25 absurdist MAX-chaos hook + per-topic costume switching.",
+      "version": "3.0.0",
       "source": {
         "source": "url",
         "url": "https://github.com/alisadikinma/ai-image-carousel-prompt-gen.git"
